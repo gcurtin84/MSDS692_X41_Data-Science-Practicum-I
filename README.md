@@ -34,10 +34,9 @@ To keep this project simple I focused on the QB position.  This project is desig
 <br/>
 <br/>
 [here](https://www.youtube.com/watch?v=YgalGDCL3Zk&t=535s) A special thanks to [Matteo Hoch](https://www.youtube.com/channel/UCiie9CN--dazA7iT2sry5FA) for sharing.
-
 <br/>
 <br/>
-[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)<br/>
+[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)
 <br/>
 <br/>
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Str_AllQBStats.png)
