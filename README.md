@@ -8,10 +8,10 @@ According to rotogrinders.com, the daily fantasy company Fanduel paid out more t
 
 ## Daily Fantasy Football
 
-DFF is a simple concept.  A player selects a fantasy team from a pool of football players that will play within a given timeframe.  In a traditional contest each player is assigned a salary.  The sum  of all player salaries must be less than the contest's budget.  For example, a Draftkings lineup requires that a DFF contestant selects one quarterback (QB), two running backs (RB), 3 wide recievers (WR), 1 tight end (TE), and the entire defense and special teams (DST) of one NFL franchise.  In addition the contestant gets to fill a flex position from either of the RB, WR or TE positions.  This makes a total of nine DFF positions. The contestant is given a budget of $50 thousand dollars and must pick a lineup with combined salaries less than or equal to the budget.  Each position within the lineup accumulates fantasy points based on pre-defined rules.
+DFF is a simple concept.  A player selects a fantasy team from a pool of football players that will play within a given timeframe.  In a traditional contest each player is assigned a salary.  The sum  of all player salaries must be less than the contest's budget.  For example, a Draftkings lineup requires that a DFF contestant selects one quarterback (QB), two running backs (RB), 3 wide receivers (WR), 1 tight end (TE), and the entire defense and special teams (DST) of one NFL franchise.  In addition the contestant gets to fill a flex position from either of the RB, WR or TE positions.  This makes a total of nine DFF positions. The contestant is given a budget of $50 thousand dollars and must pick a lineup with combined salaries less than or equal to the budget.  Each position within the lineup accumulates fantasy points (FPTS) based on pre-defined rules.
 
 #### QB Scoring Rules:
-* Passing Touchdown (TD) = 4pts
+* Passing Touchdown = 4pts
 * 25 Passing Yards = 1pt
 * 300+ Yard Passing Game = 3pts
 * Interception = -1pt
@@ -26,13 +26,9 @@ From my own experience, I have found that one factor distinguishes how well I do
 
 ## Project Design
 
-To keep this project simple I focused on the QB position.  The dataset was created by web-scraping from [fftoday.com](http://fftoday.com/stats/playerstats.php?Season=2018&GameWeek=1&PosID=10&LeagueID=)
-
-## Stats Dataset
+To keep this project simple I focused on the QB position.  This project is designed to be a proof of concept rather than a fully functional tool.  The dataset used for training and testing the machine learning models was created by web-scraping from [fftoday.com](http://fftoday.com/stats/playerstats.php?Season=2018&GameWeek=1&PosID=10&LeagueID=).  Two categorical machine learning models where used to predict fantasy points: SVM and KNN.  Instead of predicting a specific score for each player I separated FPTS into two categories.  In my [YouTube presentation](www.youtube.com), I show how the resulting models can be used to make predictions and select players for a lineup.
 
 ## EDA - Stats Dataset
-
-## Projections Dataset
 
 ## EDA - Stats Dataset
 
@@ -40,5 +36,22 @@ To keep this project simple I focused on the QB position.  The dataset was creat
 
 ## KNN Model
 
+## Abbreviations
+
+DFF - Daily Fantasy Football
+DST - Defense and Special Teams
+FPTS - Fantasy Points
+QB - Quarterback
+RB - Runningback
+TE - Tight End
+WR - Wide Receiver
+
 ## Sources
+
 https://rotogrinders.com/static/daily-fantasy-sports-timeline
+
+http://fantasysportdrs.com/draftkings-fantasy-football-rules
+
+http://fftoday.com/stats/playerstats.php?Season=2018&GameWeek=1&PosID=10&LeagueID=
+
+http://fantasysportdrs.com/draftkings-fantasy-football-rules/
