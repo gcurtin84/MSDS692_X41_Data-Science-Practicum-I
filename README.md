@@ -34,6 +34,8 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## EDA - Stats Dataset
 
+[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R)
+
 ## SVM Model
 
 ## KNN Model
