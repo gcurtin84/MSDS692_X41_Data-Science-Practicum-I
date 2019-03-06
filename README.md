@@ -33,6 +33,9 @@ To keep this project simple I focused on the QB position.  This project is desig
 [Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)<br/>
 <br/>
 <br/>
+[here](https://www.youtube.com/watch?v=YgalGDCL3Zk&t=535s)
+<br/>
+<br/>
 [Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)<br/>
 <br/>
 <br/>
@@ -55,7 +58,6 @@ To keep this project simple I focused on the QB position.  This project is desig
 ## Projections Dataset
 
 [Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R)<br/>
-
 
 ## SVM Model
 
@@ -84,3 +86,5 @@ http://fantasysportdrs.com/draftkings-fantasy-football-rules
 http://fftoday.com/stats/playerstats.php?Season=2018&GameWeek=1&PosID=10&LeagueID=
 
 http://fantasysportdrs.com/draftkings-fantasy-football-rules/
+
+https://www.youtube.com/watch?v=YgalGDCL3Zk&t=535s
