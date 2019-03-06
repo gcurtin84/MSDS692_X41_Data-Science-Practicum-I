@@ -59,11 +59,11 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## SVM Model
 
-[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R)
+[SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R)
 
 ## KNN Model
 
-[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R)
+[KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R)
 
 ## Abbreviations
 
