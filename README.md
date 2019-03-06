@@ -31,7 +31,7 @@ To keep this project simple I focused on the QB position.  This project is desig
 ## EDA - Stats Dataset
 
 [Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)\
-[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)\
+[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)
 
 ## EDA - Stats Dataset
 
@@ -44,7 +44,7 @@ To keep this project simple I focused on the QB position.  This project is desig
 ## Abbreviations
 
 DFF - Daily Fantasy Football\
-DST - Defense and Special Teams
+DST - Defense and Special Teams\
 FPTS - Fantasy Points\
 QB - Quarterback\
 RB - Runningback\
