@@ -30,12 +30,17 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## EDA - Stats Dataset
 
-[Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)\
-[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)
+[Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)<br/>
+<br/>
+[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)<br/>
+<br/>
+<br/>
+![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Corrplot_Allstats.png)
 
 ## EDA - Stats Dataset
 
-[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R)
+[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R)<br/>
+
 
 ## SVM Model
 
@@ -43,12 +48,12 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## Abbreviations
 
-DFF - Daily Fantasy Football\
-DST - Defense and Special Teams\
-FPTS - Fantasy Points\
-QB - Quarterback\
-RB - Runningback\
-TE - Tight End\
+DFF - Daily Fantasy Football<br/>
+DST - Defense and Special Teams<br/>
+FPTS - Fantasy Points<br/>
+QB - Quarterback<br/>
+RB - Runningback<br/>
+TE - Tight End<br/>
 WR - Wide Receiver
 
 ## Sources
