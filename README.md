@@ -38,12 +38,12 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## Abbreviations
 
-DFF - Daily Fantasy Football
+DFF - Daily Fantasy Football\
 DST - Defense and Special Teams
-FPTS - Fantasy Points
-QB - Quarterback
-RB - Runningback
-TE - Tight End
+FPTS - Fantasy Points\
+QB - Quarterback\
+RB - Runningback\
+TE - Tight End\
 WR - Wide Receiver
 
 ## Sources
