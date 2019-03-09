@@ -67,7 +67,13 @@ The [Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-
 
 ## Results
 
-To predict the target categories I tested two ML models: KNN and SVM.  Both the [SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R) and [KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R) performed almost exactly the same with about 60% accuracy.  
+To predict the target categories I tested two ML models: KNN and SVM.  Both the [SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R) and [KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R) performed almost exactly the same with about 60% accuracy. 
+
+#### KNN Predictions vs. Targets:
+![KNN Predictions](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/KNN_Table.png)
+
+#### SVM Predictions vs. Targets:
+![SVM Predictions](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/SVM_Table.png)
 
 ## Abbreviations
 
