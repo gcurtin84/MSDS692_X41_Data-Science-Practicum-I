@@ -33,19 +33,19 @@ To keep this project simple I focused on the QB position.  This project is desig
 The combined data set contains 14 columns.
 
 #### Parameters:
-* 1. Name: First and Last name of football player
-* 2. NxtWk.FPTS: Fantasty points (FPTS) scored for the following week
-* 3. Team: the Football player's owning franchise
-* 4. Pass.Comp: Passes completed for the current week
-* 5. Pass.Att: Passes attempted for the current week
-* 6. Pass.TD: Touchdowns thrown for the current week
-* 7. Pass.INT: Interceptions thrown for the current week
-* 8. Rush.Att: Rushing attempts for the current week
-* 9. Rush.Yard: Yards rushed for the current week
-* 9. Rush.TD: Rushed in touchdowns for the current week
-* 10. FPTS: Fantasy points scored for the current week
-* 11. Week: Current week
-* 12. Categories: Categories for the NxtWk.FPTS parameter. Two categories: C1 = < 20 FPTS, C2 = > 20 FPTS
+1) Name: First and Last name of football player
+2) NxtWk.FPTS: Fantasty points (FPTS) scored for the following week
+3) Team: the Football player's owning franchise
+4) Pass.Comp: Passes completed for the current week
+5) Pass.Att: Passes attempted for the current week
+6) Pass.TD: Touchdowns thrown for the current week
+7) Pass.INT: Interceptions thrown for the current week
+8) Rush.Att: Rushing attempts for the current week
+9) Rush.Yard: Yards rushed for the current week
+10). Rush.TD: Rushed in touchdowns for the current week
+11) FPTS: Fantasy points scored for the current week
+12) Week: Current week
+13) Categories: Categories for the NxtWk.FPTS parameter. Two categories: C1 = < 20 FPTS, C2 = > 20 FPTS
 
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Str_AllQBStats.png)
 
