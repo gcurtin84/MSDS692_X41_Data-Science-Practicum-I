@@ -52,26 +52,14 @@ The combined data set contains 14 columns.
 [Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)
 
 [Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)
-<br/>
-<br/>
 
-<br/>
-<br/>
-
-<br/>
-<br/>
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Summary_AllStats.png)
-<br/>
-<br/>
+
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_PassQBStats.png)
-<br/>
-<br/>
+
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_RushQBStats.png)
-<br/>
-<br/>
+
 ![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Corrplot_Allstats.png)
-<br/>
-<br/>
 
 ## Projections Dataset
 
