@@ -67,7 +67,7 @@ The [Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-
 
 ## Results
 
-To predict the target categories I tested two ML models: KNN and SVM.  Both the [SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R) and [KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R) performed almost exactly the same with about 60% accuracy. 
+To predict the target categories I tested two ML models: KNN and SVM.  Both the [SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R) and [KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R) performed almost exactly the same with about 60% accuracy. Basically, these models will accurately predict if a QB will score over 20 FPTS more than half the time.  This isn't a great accuracy rate for most data science projects.  However, 60% confidence is a player'd value makes a huge different in the DFF domain.
 
 #### KNN Predictions vs. Targets:
 ![KNN Predictions](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/KNN_Table.png)
