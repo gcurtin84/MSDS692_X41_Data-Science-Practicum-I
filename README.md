@@ -30,7 +30,7 @@ To keep this project simple I focused on the QB position.  This project is desig
 
 ## EDA - Combined Dataset
 
-The combined data set contains 14 columns.
+The combined data set contains 14 columns and 611 rows.  It has the first 16 regular season NFL football week QB stats.  The 17th week is excluded because there is not a following week to predict FPTS for.
 
 #### Parameters:
 1) Name: First and Last name of football player
@@ -47,31 +47,27 @@ The combined data set contains 14 columns.
 12) Week: Current week
 13) Categories: Categories for the NxtWk.FPTS parameter. Two categories: C1 = < 20 FPTS, C2 = > 20 FPTS
 
-![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Str_AllQBStats.png)
+![str](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Str_AllQBStats.png)
 
-[Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R)
+![summary](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Summary_AllStats.png)
 
-[Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R)
+Looking at the correlations below, I found that the pass stats and FPTS had the highest correlations to the target parameter (NxtWk.FPTS).  For this reason, I decided to use the Pass.Yards and FPTS in my ML models.
 
-![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Summary_AllStats.png)
+![Pass Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_PassQBStats.png)
 
-![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_PassQBStats.png)
+![Rush Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_RushQBStats.png)
 
-![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Plot_RushQBStats.png)
+![Corrplot](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Corrplot_Allstats.png)
 
-![Correlations](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Corrplot_Allstats.png)
+The [Combined Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Combined_Dataset.R) is created using the [Stats Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Stats_Dataset.R).  For each week of football the next week's stats for each player were added to the current week.  For example, I combined the week 1 stats with the week 2 stats.  The goal of this project is to use a week's stats to predict the following weeks fantasy points.
 
 ## Projections Dataset
 
-[Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R)<br/>
+The [Projections Dataset](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Projections_Dataset.R) was pulled from fftoolbox.com and is solely purposed to compare my predictions with the predictions already available to DFF players.
 
-## SVM Model
+## Results
 
-[SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R)
-
-## KNN Model
-
-[KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R)
+To predict the target categories I tested two ML models: KNN and SVM.  Both the [SVM Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/SVM_Model.R) and [KNN Model](https://github.com/gcurtin84/MSDS692_X41_Data-Science-Practicum-I/blob/master/Code/KNN_Model.R) performed almost exactly the same with about 60% accuracy.  
 
 ## Abbreviations
 
